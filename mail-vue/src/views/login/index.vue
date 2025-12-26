@@ -10,7 +10,7 @@
     <div v-else :style="background"></div>
     <div class="form-wrapper">
       <div class="container">
-        <span class="tmd"></span>
+        <h1 class="tmd"></h1>
         <span class="form-title">{{ settingStore.settings.title }}</span>
         <span class="form-desc" v-if="show === 'login'">{{ $t('loginTitle') }}</span>
         <span class="form-desc" v-else>{{ $t('regTitle') }}</span>
